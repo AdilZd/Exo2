@@ -28,14 +28,14 @@ div:hover {
 h2 {
 
   position: relative;
-  letter-spacing: 5px;
+  letter-spacing: 15px;
   animation: bounce 2s infinite alternate;
 }
 
 @keyframes bounce {
 
-  from {top: 106px;}
-  50%  {top: 86px;}
-  to   {top: 106px;}
+  from {top: 106px;font-size: 12px;}
+  50%  {top: 86px;font-size: 36px;}
+  to   {top: 106px;font-size: 12px;}
 }
 
