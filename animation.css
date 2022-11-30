@@ -1,0 +1,30 @@
+div {
+  animation: nouvelle 1s;
+  animation-fill-mode: both;
+  animation-delay: 1s;
+  animation-direction: alternate-reverse ;
+  animation-iteration-count: 2;
+}
+
+div:hover {
+  animation-play-state: paused;
+}
+
+@keyframes mymove {
+    from {left: 0px;} /* 0% */
+    to {left: 200px;} /* 100% */
+}
+
+@keyframes nouvelle {
+
+  0%{left:0px;top:0px;}
+  25%{left:200px;top:0px;} 
+  50%{left:200px;top:200px;}
+  75%{left:0px;top:200px;}
+  100%{left:0px;top:0px;}
+}
+
+.bounce-title{
+  transition: transform 330ms ease-in-out;
+}
+
