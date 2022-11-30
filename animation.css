@@ -24,7 +24,18 @@ div:hover {
   100%{left:0px;top:0px;}
 }
 
-.bounce-title{
-  transition: transform 330ms ease-in-out;
+
+h2 {
+
+  position: relative;
+  letter-spacing: 5px;
+  animation: bounce 2s infinite alternate;
+}
+
+@keyframes bounce {
+
+  from {top: 106px;}
+  50%  {top: 86px;}
+  to   {top: 106px;}
 }
 
